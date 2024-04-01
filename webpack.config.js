@@ -44,7 +44,7 @@ module.exports = (_, argv) => ({
       name: "StudentApp3",
       filename: "remoteEntry.js",
       remotes: {
-        "StudentApp1" : "StudentApp1@http://localhost:3001/remoteEntry.js"
+        "StudentApp1" : "StudentApp1@https://deannelaylay-comp308assignment4.onrender.com/remoteEntry.js"
       },
       exposes: {},
       shared: {
